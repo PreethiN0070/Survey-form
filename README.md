@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 
-You can use the [editor on GitHub](https://github.com/PreethiN0070/ass/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+    <h1><B><em>WELCOME TO THE SHORT SURVEY</em> </B></h1>
+    <div>
+    <h2>About yourself</h2>
+    <label for="uname">Enter your name:</label>
+    <input type="text" name="uname" placeholder="Enter your name"><br><br>
+    <label>Gender</label>
+    <input type="radio" name="gender" >Male
+    <input type="radio" name="gender" >Female <br><br>
+    <label >Locality</label>
+    <input type="text" placeholder="enter the name of your locality" ><br><br>
+    <label>Qualification</label>
+    <select name="qual">
+        <option>select your qualification</option>
+        <option>B.E</option>
+        <option>B.Tech</option>
+        <option>B.Sc</option>
+        <option>B.Com</option>
+        <option>BCA</option>
+        <option>MBA</option>
+    </select> <br><br>
+   <label>Occupation</label>
+   <select name="occupation">
+    <option>select your Occupation</option>
+    <option>Student</option>
+    <option>Faculty</option>
+    <option>Other</option>
+</select> <br><br>
+    </div>
+    <div>
+        <h2>Contact details</h2>
+   <label for="number">Enter your mobile number:</label>
+    <input type="number" name="number" placeholder="Enter your mobile number" ><br><br>
+    <label for="email">Enter your Email:</label>
+    <input type="email" name="mail" placeholder="Enter your email id"><br><br>
+</div>
+<h3>How would you ike to rate web development chapter sessions</h3>
+Very poor<input type="radio" name="rate"> 
+<input type="radio" name="rate"> 
+<input type="radio" name="rate"> 
+<input type="radio" name="rate">
+<input type="radio" name="rate">Excellent <br><br>
+<h3>What else need to be included in the sessions from now on?</h3>
+<textarea name="questions" cols="15" rows="2"></textarea><br><br>
+Need to revise the previous sessions?<a href="http://surl.li/afpyh">Click here </a><br><br>
+<fieldset>
+  <legend>Any comments</legend>  
+<textarea name="comments" id="" cols="60" rows="10"></textarea>
+</fieldset><br><br>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PreethiN0070/ass/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<button>SUBMIT</button>
+</body>
+</html>
